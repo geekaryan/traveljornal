@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    background-color: rgba(223, 54, 54, 0.801);
+}
+
+i {
+    margin-right: 3px;
+}
+
+.container {
+    display: flex;
+    margin-top: 35px;
+}
+
+.place {
+    display: flex;
+}
+
+a {
+    margin-left: 6px;
+}
+
+.country {
+    margin-left: 4px;
+}
+
+.content {
+    margin-left: 34px;
+    margin-top: 32px;
+}
+
+.place-name {
+    margin-top: 5px;
+    font-size: 2.2rem;
+    font-family: poppins;
+}
+
+.description {
+    margin-top: 5px;
+}
+
+.image {
+    height: 300px;
+    width: 300px;
+    margin-left: 12px;
+    border-radius: 2px;
+    border: 2px solid transparent;
+}
+
+.information {
+    margin-top: 7px;
+    font-size: 1.4rem;
+}
+
+.foot {
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    background-color: wheat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
